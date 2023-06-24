@@ -1,5 +1,5 @@
 import Header from "../partials/Header";
-// import Footer from "../partials/Footer";
+import Footer from "../partials/Footer";
 import { Card, Container, ListGroup } from "react-bootstrap";
 import { useState } from "react";
 import Experience from "./Experience";
