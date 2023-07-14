@@ -27,7 +27,7 @@ function Experience() {
 
           <h5 className={"mt-5"}>
             <i className="fa fa-briefcase me-1" aria-hidden="true"></i>ReactJS |
-            PHP | Laravel | Devops Developer
+            Laravel | Devops Developer
           </h5>
 
           <Card.Text>

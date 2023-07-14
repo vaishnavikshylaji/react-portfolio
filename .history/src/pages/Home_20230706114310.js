@@ -33,10 +33,10 @@ function Home() {
       <Header />
       <div className={"bg-black p-4 text-white"}>
         <Container className={"mt-1"}>
-          <Row className="d-flex align-items-center">
-            <Col sm={12} md={10}>
+          <Row>
+            <Col sm={12} md={9}>
               <h2>Vaishnavi K Shylaji</h2>
-              <h5>PHP | Laravel | React | AWS Developer</h5>
+              <h5>PHP | Laravel | React Developer</h5>
               <p className={"mt-2"}>
                 Fullstack developer skilled in PHP, Laravel and React.js with
                 more than three years of experience. Passionate about working
@@ -44,13 +44,7 @@ function Home() {
               </p>
             </Col>
             <Col sm={12} md={2}>
-              <img
-                alt="profile"
-                src={profileImage}
-                width={150}
-                height={150}
-                style={{ borderRadius: "50%" }}
-              />
+              <img src={profileImage} width={50} height={50} />
             </Col>
           </Row>
         </Container>
@@ -68,7 +62,6 @@ function Home() {
                     ></i>
                     <button
                       className={"btn text-light"}
-                      style={{ boxShadow: "none", outline: "none" }}
                       onClick={clickExperience}
                     >
                       Experience

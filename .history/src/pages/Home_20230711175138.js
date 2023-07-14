@@ -69,7 +69,7 @@ function Home() {
                     <button
                       className={"btn text-light"}
                       style={{ boxShadow: "none", outline: "none" }}
-                      onClick={clickExperience}
+                      onClick={() => clickExperience}
                     >
                       Experience
                     </button>

@@ -34,7 +34,7 @@ function Home() {
       <div className={"bg-black p-4 text-white"}>
         <Container className={"mt-1"}>
           <Row className="d-flex align-items-center">
-            <Col sm={12} md={10}>
+            <Col sm={12} md={9}>
               <h2>Vaishnavi K Shylaji</h2>
               <h5>PHP | Laravel | React | AWS Developer</h5>
               <p className={"mt-2"}>
@@ -68,7 +68,6 @@ function Home() {
                     ></i>
                     <button
                       className={"btn text-light"}
-                      style={{ boxShadow: "none", outline: "none" }}
                       onClick={clickExperience}
                     >
                       Experience

@@ -1,11 +1,9 @@
-import React from "react";
 import Header from "../partials/Header";
 // import Footer from "../partials/Footer";
-import { Card, Col, Container, ListGroup, Row } from "react-bootstrap";
+import { Card, Container, ListGroup } from "react-bootstrap";
 import { useState } from "react";
 import Experience from "./Experience";
 import Education from "./Education";
-import profileImage from "../assets/images/IMG_4637.jpg";
 
 function Home() {
   const [page, setPage] = useState("experience");
@@ -33,26 +31,14 @@ function Home() {
       <Header />
       <div className={"bg-black p-4 text-white"}>
         <Container className={"mt-1"}>
-          <Row className="d-flex align-items-center">
-            <Col sm={12} md={10}>
-              <h2>Vaishnavi K Shylaji</h2>
-              <h5>PHP | Laravel | React | AWS Developer</h5>
-              <p className={"mt-2"}>
-                Fullstack developer skilled in PHP, Laravel and React.js with
-                more than three years of experience. Passionate about working
-                with new technologies, solving interesting technical challenges.
-              </p>
-            </Col>
-            <Col sm={12} md={2}>
-              <img
-                alt="profile"
-                src={profileImage}
-                width={150}
-                height={150}
-                style={{ borderRadius: "50%" }}
-              />
-            </Col>
-          </Row>
+          <h2>Vaishnavi K Shylaji</h2>
+          <h5>PHP | Laravel | React  Developer</h5>
+          <p className={"mt-2"}>
+            Fullstack developer skilled in PHP, Laravel, React.js and
+            Django with more than three years of experience. Passionate
+            about working with new technologies, solving interesting technical
+            challenges. 
+          </p>
         </Container>
       </div>
       <div className={"p-md-4"}>
@@ -68,7 +54,6 @@ function Home() {
                     ></i>
                     <button
                       className={"btn text-light"}
-                      style={{ boxShadow: "none", outline: "none" }}
                       onClick={clickExperience}
                     >
                       Experience

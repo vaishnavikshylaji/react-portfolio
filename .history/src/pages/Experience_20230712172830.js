@@ -27,7 +27,7 @@ function Experience() {
 
           <h5 className={"mt-5"}>
             <i className="fa fa-briefcase me-1" aria-hidden="true"></i>ReactJS |
-            PHP | Laravel | Devops Developer
+            Laravel | Devops Developer
           </h5>
 
           <Card.Text>
@@ -53,21 +53,23 @@ function Experience() {
           </h5>
 
           <Card.Text>
-            <Card.Subtitle className="mb-2 mt-2 text-muted">
-              <span className="ms-4">
-                TutorHow Scientific Edutech Pvt. Ltd, Kerala, India (10-10-2019
-                - 11-04-2020)
-              </span>
-            </Card.Subtitle>
-            <Card.Link
-              span
-              className="ms-4"
-              target={"_blank"}
-              href="https://tutorhow.com/"
-            >
-              https://tutorhow.com/
-            </Card.Link>
+            <span className="ms-4">
+              TutorHow Scientific Edutech Pvt. Ltd, Kerala, India (10-10-2019 -
+              11-04-2020)
+            </span>
+            {/* <ul className="ms-2">
+              <li>PHP</li>
+              <li>Laravel</li>
+            </ul> */}
           </Card.Text>
+          <Card.Link
+            span
+            className="ms-4"
+            target={"_blank"}
+            href="https://tutorhow.com/"
+          >
+            https://tutorhow.com/
+          </Card.Link>
         </Card.Body>
       </Card>
     </>

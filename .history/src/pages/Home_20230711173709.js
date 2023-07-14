@@ -68,7 +68,6 @@ function Home() {
                     ></i>
                     <button
                       className={"btn text-light"}
-                      style={{ boxShadow: "none", outline: "none" }}
                       onClick={clickExperience}
                     >
                       Experience
@@ -114,7 +113,9 @@ function Home() {
                 </ListGroup>
               </Card>
             </div>
-            <div className={"col-md-9"}>{renderSwitch(page)}</div>
+            <div className={"col-md-9"} style={{ height: "50px" }}>
+              {renderSwitch(page)}
+            </div>
           </div>
         </Container>
       </div>
